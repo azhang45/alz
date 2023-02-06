@@ -68,10 +68,10 @@ export default function Home() {
         </section>
 
         <section>
-          <h3 ref={ref} className='text-3xl font-ubuntu bg-zinc-700 px-3 bg-opacity-70 text-left text-sky-400' style={{display: "inline"}}>
+          <h3 ref={ref} className='text-3xl font-ubuntu bg-zinc-700 px-4 bg-opacity-70 text-left text-sky-400' style={{display: "inline"}}>
             alz@DESKTOP-123456:~$
             </h3>
-            <h3 className='text-3xl font-ubuntu bg-zinc-700 px-3 bg-opacity-70 text-left text-gray-300' style={{display: "inline"}}>
+            <h3 className='text-3xl font-ubuntu bg-zinc-700 pr-52 bg-opacity-70 text-left text-gray-300' style={{display: "inline"}}>
               cd programming-projects
             </h3>
         </section>
