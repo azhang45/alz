@@ -68,12 +68,41 @@ export default function Home() {
         </section>
 
         <section>
-          <h3 ref={ref} className='text-3xl font-ubuntu bg-zinc-700 px-4 bg-opacity-70 text-left text-sky-400' style={{display: "inline"}}>
-            alz@DESKTOP-123456:~$
+          <div>
+            <h3 ref={ref} className='text-3xl font-ubuntu bg-zinc-700 px-9 pr-60 bg-opacity-60 
+              text-left rounded-br-full rounded-tl-full text-gray-300' style={{display: "inline"}}>
+              <span className='text-sky-400'>alz@DESKTOP-123456:~$</span> cd programming-projects
             </h3>
-            <h3 className='text-3xl font-ubuntu bg-zinc-700 pr-52 bg-opacity-70 text-left text-gray-300' style={{display: "inline"}}>
-              cd programming-projects
-            </h3>
+          </div>
+
+          {/* grid of prog projects */}
+          <div>
+            <div className='py-10 grid md:grid-cols-2 xl:grid-cols-3'>
+              <article className='flex flex-col'>
+
+              <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
+                hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
+                bg-gradient-to-br from-emerald-800 to-emerald-500" >
+
+                {/* style="background-color: rgb(250, 239, 223); 
+                background-image: linear-gradient(rgba(250, 239, 223, 0.8), rgba(250, 239, 223, 0.8)), 
+                url('public/keyboard.png'); color: rgb(0, 0, 0);" */}
+
+
+                  <h4 className="font-ubuntu font-bold text-2xl sm:text-3xl">
+                    YourBcaBus
+                  </h4>
+                  <p className="font-sans text-sm mt-2 italic">
+                    Bus-location app.
+                  </p>
+              </a>
+
+              </article>
+
+            </div>
+
+          </div>
+
         </section>
 
       </main>
