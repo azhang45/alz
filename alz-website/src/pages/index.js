@@ -1,10 +1,12 @@
 import Head from 'next/head';
 
 import {BsFillMoonStarsFill} from 'react-icons/bs';
-import {AiFillGithub, AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube, AiOutlineArrowDown} from 'react-icons/ai';
+import {AiFillGithub, AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube, AiFillMail,
+  AiOutlineArrowDown, AiOutlineArrowRight} from 'react-icons/ai';
 import Image from 'next/image';
 //import keyboard from 'C:/Users/alice/OneDrive/personal-projects/alz/alz-website/public/keyboard.png';
-import keyboard from 'public/keyboard.png'
+import keyboard from 'public/keyboard.png';
+import ybb from 'public/ybb2.png';
 // import { Inter } from '@next/font/google'
 // import styles from '@/styles/Home.module.css'
 import {useRef} from 'react';
@@ -26,7 +28,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className=' bg-indigo-900 px-10'>
+      <main className=' bg-gradient-to-br from-slate-900 to-violet-700 px-10'>
         <section className='min-h-screen'>
           <nav className='py-5 mb-12 flex justify-between'>
             <h1 className='text-2xl font-ubuntu'>alz</h1>
@@ -51,15 +53,24 @@ export default function Home() {
           </div>
 
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-300'>
-            <AiFillGithub />
-            <AiFillYoutube />
-            <AiFillLinkedin />
-            <AiFillTwitterCircle />
+            <a href='https://github.com/azhang45'> <AiFillGithub /> </a>
+            <a href='https://www.linkedin.com/in/alice-zhang-994145247/'><AiFillLinkedin /></a>
+            <a href='mailto:alicenz0063@gmail.com'><AiFillMail /></a>
           </div>
 
-          <div className='relative flex justify-center mx-auto py-10'>
+          {/* <div className='relative flex justify-center mx-auto py-10'>
             <Image src={keyboard} />
+          </div> */}
+
+          <div className='relative flex justify-center mx-auto py-10'>
+            <Image src = {keyboard} alt = "useMap" useMap = "#spacebar"/>
+            <map name = "spacebar">
+              <area shape = "rect" coords = "140,130,333,162" alt = "_blank"
+                  href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" target = "_blank" />
+              
+            </map>
           </div>
+
 
           <div className='text-5xl flex justify-center text-cyan-300'>
             <AiOutlineArrowDown onClick={handleClick} />
@@ -69,7 +80,7 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 ref={ref} className='text-3xl font-ubuntu bg-zinc-700 px-9 pr-60 bg-opacity-60 
+            <h3 ref={ref} className='text-3xl font-ubuntu bg-zinc-700 px-9 py-1 pr-60 bg-opacity-60 
               text-left rounded-br-full rounded-tl-full text-gray-300' style={{display: "inline"}}>
               <span className='text-sky-400'>alz@DESKTOP-123456:~$</span> cd programming-projects
             </h3>
@@ -77,26 +88,69 @@ export default function Home() {
 
           {/* grid of prog projects */}
           <div>
-            <div className='py-10 grid md:grid-cols-2 xl:grid-cols-3'>
+            <div className='py-10 px-44 grid md:grid-cols-2 xl:grid-cols-4 gap-10'>
+
+              {/* project 1 */}
               <article className='flex flex-col'>
+                <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
+                  hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
+                  bg-gradient-to-br from-emerald-900 to-emerald-600" >
 
-              <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
-                hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
-                bg-gradient-to-br from-emerald-800 to-emerald-500" >
+                    <h4 className="font-ubuntu font-bold text-2xl sm:text-3xl">
+                      YourBcaBus
+                    </h4>
+                    <p className="font-sans text-sm mt-2 italic">
+                      Bus-location tracker developed for the ease of BCA students.
+                    </p>
+                </a>
+                <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
+                  <a href="https://about.yourbcabus.com" target="_blank" 
+                    className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-emerald-600 dark:border-white/20">
+                      yourbcabus.com <AiOutlineArrowRight />
+                  </a>
+                </div>
+              </article>
 
-                {/* style="background-color: rgb(250, 239, 223); 
-                background-image: linear-gradient(rgba(250, 239, 223, 0.8), rgba(250, 239, 223, 0.8)), 
-                url('public/keyboard.png'); color: rgb(0, 0, 0);" */}
+              {/* project 2 */}
+              <article className='flex flex-col'>
+                <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
+                  hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
+                  bg-gradient-to-br from-slate-800 to-indigo-700" >
 
+                    <h4 className="font-ubuntu font-bold text-2xl sm:text-3xl">
+                      Mare by Alsky
+                    </h4>
+                    <p className="font-sans text-sm mt-2 italic">
+                      Website that converts user-uploaded images into line art.
+                    </p>
+                </a>
+                <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
+                  <a href="https://github.com/azhang45/Mare" target="_blank" 
+                    className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-indigo-800 dark:border-white/20">
+                      github.com <AiOutlineArrowRight />
+                  </a>
+                </div>
+              </article>
 
-                  <h4 className="font-ubuntu font-bold text-2xl sm:text-3xl">
-                    YourBcaBus
-                  </h4>
-                  <p className="font-sans text-sm mt-2 italic">
-                    Bus-location app.
-                  </p>
-              </a>
+              {/* project 3 */}
+              <article className='flex flex-col'>
+                <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
+                  hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
+                  bg-gradient-to-br from-green-800 to-yellow-500" >
 
+                    <h4 className="font-ubuntu font-bold text-2xl sm:text-3xl">
+                      Concerndle
+                    </h4>
+                    <p className="font-sans text-sm mt-2 italic">
+                      Wordle Discord bot, but with an almost impossible twist (may be outdated due to Discord updates).
+                    </p>
+                </a>
+                <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
+                  <a href="https://discord.com/api/oauth2/authorize?client_id=959626199531945994&permissions=412317191232&scope=bot" target="_blank" 
+                    className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-lime-600 dark:border-white/20">
+                      Invite the bot! <AiOutlineArrowRight />
+                  </a>
+                </div>
               </article>
 
             </div>
