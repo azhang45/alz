@@ -88,7 +88,7 @@ export default function Home() {
 
           {/* grid of prog projects */}
           <div>
-            <div className='py-10 px-44 grid md:grid-cols-2 xl:grid-cols-4 gap-10'>
+            <div className='py-10 px-32 grid md:grid-cols-2 xl:grid-cols-4 gap-6'>
 
               {/* project 1 */}
               <article className='flex flex-col'>
@@ -115,7 +115,7 @@ export default function Home() {
               <article className='flex flex-col'>
                 <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
                   hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
-                  bg-gradient-to-br from-slate-800 to-indigo-700" >
+                  bg-gradient-to-br from-slate-800 to-blue-900" >
 
                     <h4 className="font-ubuntu font-bold text-2xl sm:text-3xl">
                       Mare by Alsky
@@ -126,7 +126,7 @@ export default function Home() {
                 </a>
                 <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
                   <a href="https://github.com/azhang45/Mare" target="_blank" 
-                    className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-indigo-800 dark:border-white/20">
+                    className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-blue-900 dark:border-white/20">
                       github.com <AiOutlineArrowRight />
                   </a>
                 </div>
