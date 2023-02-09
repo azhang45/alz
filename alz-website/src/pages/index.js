@@ -94,7 +94,7 @@ export default function Home() {
               <article className='flex flex-col'>
                 <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
                   hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
-                  bg-gradient-to-br from-emerald-900 to-emerald-600" >
+                  bg-gradient-to-br from-emerald-900 to-emerald-500" >
 
                     <h4 className="font-ubuntu font-bold text-2xl sm:text-3xl">
                       YourBcaBus
@@ -152,6 +152,31 @@ export default function Home() {
                   </a>
                 </div>
               </article>
+
+              {/* project 4 */}
+              <article className='flex flex-col'>
+                <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
+                  hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
+                  bg-gradient-to-br from-zinc-600 to-amber-500" >
+
+                    <h4 className="font-ubuntu font-bold text-2xl sm:text-3xl">
+                      Datestamp Adder
+                    </h4>
+                    <p className="font-sans text-sm mt-2 italic">
+                      Website that uses image metadata to add the date and/or time stamp on user-uploaded images.
+                    </p>
+                </a>
+                <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
+                  <a href="https://github.com/kna27/datestamp-adder" target="_blank" 
+                    className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-yellow-600 dark:border-white/20">
+                      github.com <AiOutlineArrowRight />
+                  </a>
+                </div>
+              </article>
+
+              <a className=' text-3xl font-ubuntu py-5 text-cyan-300 flex justify-center'>
+                See more <AiOutlineArrowRight />
+              </a>
 
             </div>
 
