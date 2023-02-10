@@ -7,10 +7,10 @@ import Image from 'next/image';
 //import keyboard from 'C:/Users/alice/OneDrive/personal-projects/alz/alz-website/public/keyboard.png';
 import keyboard from 'public/keyboard.png';
 import ybb from 'public/ybb2.png';
-// import { Inter } from '@next/font/google'
-// import styles from '@/styles/Home.module.css'
+import { Inter } from '@next/font/google'
+import styles from '@/styles/Home.module.css'
 import {useRef} from 'react';
-// const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   const ref = useRef(null);
@@ -78,7 +78,7 @@ export default function Home() {
 
         </section>
 
-        <section>
+        <section className='py-10'>
           <div>
             <h3 ref={ref} className='text-3xl font-ubuntu bg-zinc-700 px-9 py-1 pr-60 bg-opacity-60 
               text-left rounded-br-full rounded-tl-full text-gray-300' style={{display: "inline"}}>
@@ -174,8 +174,14 @@ export default function Home() {
                 </div>
               </article>
 
-              <a className=' text-3xl font-ubuntu py-5 text-cyan-300 flex justify-center'>
-                See more <AiOutlineArrowRight />
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                className={styles.card}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h2 className={inter.className}>
+                  See more <span>-&gt;</span>
+                </h2>
               </a>
 
             </div>
