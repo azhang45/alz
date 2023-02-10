@@ -46,12 +46,24 @@
   max-width: 100%;
 }
 
+.downarrow {
+  transition: transform 500ms;
+}
+
+.downarrow:hover {
+  transform: translate(0px, 20px);
+}
+
 .card {
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
   background: rgba(var(--card-rgb), 0);
   border: 1px solid rgba(var(--card-border-rgb), 0);
   transition: background 200ms, border 200ms;
+  color:cornflowerblue;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
 }
 
 .card span {

@@ -31,7 +31,9 @@ export default function Home() {
       <main className=' bg-gradient-to-br from-slate-900 to-violet-700 px-10'>
         <section className='min-h-screen'>
           <nav className='py-5 mb-12 flex justify-between'>
-            <h1 className='text-2xl font-ubuntu'>alz</h1>
+            <a className='text-2xl font-ubuntu' href="">
+              alz
+            </a>
             <ul className='flex items-center'>
               <li>
                 <BsFillMoonStarsFill className='cursor-pointer text-2xl'/>
@@ -61,8 +63,11 @@ export default function Home() {
           {/* <div className='relative flex justify-center mx-auto py-10'>
             <Image src={keyboard} />
           </div> */}
+          <div>
+            <h2 className='font-ubuntu text-cyan-700 opacity-80 flex justify-center py-3'><em>Click the space bar in the below image for a surprise!</em></h2>
+          </div>
 
-          <div className='relative flex justify-center mx-auto py-10'>
+          <div className='relative flex justify-center mx-auto py-5'>
             <Image src = {keyboard} alt = "useMap" useMap = "#spacebar"/>
             <map name = "spacebar">
               <area shape = "rect" coords = "140,130,333,162" alt = "_blank"
@@ -73,7 +78,7 @@ export default function Home() {
 
 
           <div className='text-5xl flex justify-center text-cyan-300'>
-            <AiOutlineArrowDown onClick={handleClick} />
+            <AiOutlineArrowDown className={styles.downarrow} onClick={handleClick} />
           </div>
 
         </section>
@@ -146,9 +151,9 @@ export default function Home() {
                     </p>
                 </a>
                 <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
-                  <a href="https://discord.com/api/oauth2/authorize?client_id=959626199531945994&permissions=412317191232&scope=bot" target="_blank" 
+                  <a href="https://github.com/azhang45/Concerndle" target="_blank" 
                     className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-lime-600 dark:border-white/20">
-                      Invite the bot! <AiOutlineArrowRight />
+                      github.com <AiOutlineArrowRight />
                   </a>
                 </div>
               </article>
@@ -177,10 +182,9 @@ export default function Home() {
               <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
                 className={styles.card}
                 target="_blank"
-                rel="noopener noreferrer"
-              >
+                rel="noopener noreferrer">
                 <h2 className={inter.className}>
-                  See more <span>-&gt;</span>
+                  <em>See more <span>-&gt;</span></em>
                 </h2>
               </a>
 
