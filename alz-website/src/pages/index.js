@@ -187,11 +187,17 @@ export default function Home() {
                   <em>See more <span>-&gt;</span></em>
                 </h2>
               </a>
-
             </div>
-
           </div>
+        </section>
 
+        <section className='pb-10'>
+          <div>
+            <h3 className='text-3xl font-ubuntu bg-zinc-700 px-9 py-1 pr-60 bg-opacity-60 
+              text-left rounded-br-full rounded-tl-full text-gray-300' style={{display: "inline"}}>
+              <span className='text-sky-400'>alz@DESKTOP-123456:~$</span> cd other-projects
+            </h3>
+          </div>
         </section>
 
       </main>

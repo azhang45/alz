@@ -13,7 +13,8 @@ module.exports = {
       fontFamily: {
         burtons: "burtons",
         ubuntu: "ubuntu",
-      }
+      },
+      
     },
   },
   plugins: [],
