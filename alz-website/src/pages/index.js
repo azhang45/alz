@@ -32,7 +32,7 @@ export default function Home() {
         <section className='min-h-screen'>
           <nav className='py-5 mb-12 flex justify-between'>
             <a className='text-2xl font-ubuntu' href="">
-              alz
+              <span className=' text-cyan-600'>&lt;&#47;</span>alz<span className=' text-cyan-600'>&gt;</span>
             </a>
             <ul className='flex items-center'>
               <li>
