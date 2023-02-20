@@ -10,6 +10,7 @@ import ybb from 'public/ybb2.png';
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import {useRef} from 'react';
+import Link from 'next/link';
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -32,7 +33,7 @@ export default function Home() {
         <section className='min-h-screen'>
           <nav className='py-5 mb-12 flex justify-between'>
             <a className='text-2xl font-ubuntu' href="">
-              <span className=' text-cyan-600'>&lt;&#47;</span>alz<span className=' text-cyan-600'>&gt;</span>
+              <span className=' text-cyan-600'>&lt;</span>alz<span className=' text-cyan-600'>&#47;&gt;</span>
             </a>
             <ul className='flex items-center'>
               <li>
@@ -64,14 +65,14 @@ export default function Home() {
             <Image src={keyboard} />
           </div> */}
           <div>
-            <h2 className='font-ubuntu text-cyan-700 opacity-80 flex justify-center py-3'><em>Click the space bar in the below image for a surprise!</em></h2>
+            <h2 className='font-ubuntu text-cyan-700 opacity-80 flex justify-center py-3'><em>Click the space bar in the image below for a surprise!</em></h2>
           </div>
 
           <div className='relative flex justify-center mx-auto py-5'>
             <Image src = {keyboard} alt = "useMap" useMap = "#spacebar"/>
             <map name = "spacebar">
               <area shape = "rect" coords = "140,130,333,162" alt = "_blank"
-                  href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" target = "_blank" />
+                  href = "/setup" />
               
             </map>
           </div>
@@ -179,10 +180,7 @@ export default function Home() {
                 </div>
               </article>
 
-              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                className={styles.card}
-                target="_blank"
-                rel="noopener noreferrer">
+              <a href="/progproj" className={styles.card} rel="noopener noreferrer">
                 <h2 className={inter.className}>
                   <em>See more <span>-&gt;</span></em>
                 </h2>
