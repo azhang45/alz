@@ -68,7 +68,7 @@ export default function Home() {
             <h2 className='font-ubuntu text-cyan-700 opacity-80 flex justify-center py-3'><em>Click the space bar in the image below for a surprise!</em></h2>
           </div>
 
-          <div className='relative flex justify-center mx-auto py-5'>
+          <div className='relative flex justify-center mx-auto py-5 px-3'>
             <Image src = {keyboard} alt = "useMap" useMap = "#spacebar"/>
             <map name = "spacebar">
               <area shape = "rect" coords = "140,130,333,162" alt = "_blank"
@@ -86,7 +86,7 @@ export default function Home() {
 
         <section className='py-10'>
           <div>
-            <h3 ref={ref} className='text-3xl font-ubuntu bg-zinc-700 px-9 py-1 pr-60 bg-opacity-60 
+            <h3 ref={ref} className='text-3xl font-ubuntu bg-zinc-700 px-3 md:px-5 lg:px-9 py-1 pr-5 md:pr-28 lg:pr-60 bg-opacity-60 
               text-left rounded-br-full rounded-tl-full text-gray-300' style={{display: "inline"}}>
               <span className='text-sky-400'>alz@DESKTOP-123456:~$</span> cd programming-projects
             </h3>
@@ -94,7 +94,7 @@ export default function Home() {
 
           {/* grid of prog projects */}
           <div>
-            <div className='py-10 px-32 grid md:grid-cols-2 xl:grid-cols-4 gap-6'>
+            <div className='py-10 px-16 md:px-32 xl:px-44 grid md:grid-cols-2 xl:grid-cols-4 gap-6'>
 
               {/* project 1 */}
               <article className='flex flex-col'>
@@ -191,7 +191,7 @@ export default function Home() {
 
         <section className='pb-10'>
           <div>
-            <h3 className='text-3xl font-ubuntu bg-zinc-700 px-9 py-1 pr-60 bg-opacity-60 
+            <h3 className='text-3xl font-ubuntu bg-zinc-700 px-3 md:px-5 lg:px-9 py-1 pr-5 md:pr-28 lg:pr-60 bg-opacity-60 
               text-left rounded-br-full rounded-tl-full text-gray-300' style={{display: "inline"}}>
               <span className='text-sky-400'>alz@DESKTOP-123456:~$</span> cd other-projects
             </h3>
