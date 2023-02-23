@@ -61,14 +61,11 @@ export default function Home() {
             <a href='mailto:alicenz0063@gmail.com'><AiFillMail /></a>
           </div>
 
-          {/* <div className='relative flex justify-center mx-auto py-10'>
-            <Image src={keyboard} />
-          </div> */}
           <div>
             <h2 className='font-ubuntu text-cyan-700 opacity-80 flex justify-center py-3'><em>Click the space bar in the image below for a surprise!</em></h2>
           </div>
 
-          <div className='relative flex justify-center mx-auto py-5 px-3'>
+          <div className='relative flex justify-center mx-auto py-5'>
             <Image src = {keyboard} alt = "useMap" useMap = "#spacebar"/>
             <map name = "spacebar">
               <area shape = "rect" coords = "140,130,333,162" alt = "_blank"

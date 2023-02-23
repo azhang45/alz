@@ -23,14 +23,14 @@ export default function ProgProj() {
                 </ul>
             </nav>
 
-            <div className='text-left p-10'>
+            <div className='text-left py-10 px-2 md:px-8'>
                 <h2 className='text-6xl py-2 text-cyan-400 font-medium font-ubuntu'>Programming Projects</h2>
                 <h3 className='text-3xl py-2'>With front-ends that may not be as nice...</h3>
             </div>
         </section>
 
         <section className='min-h-screen'>
-            <div className='py-10 px-32 grid md:grid-cols-2 xl:grid-cols-4 gap-6'>
+            <div className='py-10 px-16 md:px-32 xl:px-44 grid md:grid-cols-2 xl:grid-cols-4 gap-6'>
 
                 {/* project 1 */}
                 <article className='flex flex-col'>

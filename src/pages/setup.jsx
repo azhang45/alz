@@ -33,15 +33,15 @@ export default function Setup() {
                 </div>
             </section>
 
-            <section className='py-5'>
-                <div className='text-left p-10'>
+            <section className='py-3'>
+                <div className='text-left py-2 px-1 md:px-1'>
                     <h2 className='text-5xl py-2 text-cyan-400 font-medium font-ubuntu'>
                         PC
                     </h2>
                     <h3 className=' text-3xl py-2'>
                         Custom-built PC using the following parts:
                     </h3>
-                    <div className='px-10 text-2xl text-cyan-300'>
+                    <div className='px-3 md:px-10 text-2xl text-cyan-300'>
                         <li>
                             Case: <span className=' text-white'>NZXT H510 Elite White</span>
                         </li>
@@ -67,14 +67,14 @@ export default function Setup() {
 
                 </div>
 
-                <div className='text-left p-10'>
+                <div className='text-left py-8 px-1 md:px-1'>
                     <h2 className='text-5xl py-2 text-cyan-400 font-medium font-ubuntu'>
                         Keyboard
                     </h2>
                     <h3 className=' text-3xl py-2'>
                         Custom-built mechanical keyboard using the following parts:
                     </h3>
-                    <div className='px-10 text-2xl text-cyan-300'>
+                    <div className='px-3 md:px-10 text-2xl text-cyan-300'>
                         <li>
                             Case: <span className=' text-white'>KBD67 Lite R4 Justice Blue Wireless ANSI Layout</span>
                         </li>
@@ -97,14 +97,14 @@ export default function Setup() {
                     </div>
                 </div>
                 
-                <div className='text-left p-10'>
+                <div className='text-left py-8 px-1 md:px-1'>
                     <h2 className='text-5xl py-2 text-cyan-400 font-medium font-ubuntu'>
                         Peripherals
                     </h2>
                     <h3 className=' text-3xl py-2'>
                         Other parts of the setup:
                     </h3>
-                    <div className='px-10 text-2xl text-cyan-300'>
+                    <div className='px-3 md:px-10 text-2xl text-cyan-300'>
                         <li>
                             Monitor: <span className=' text-white'>Dell 240Hz 24.5 Inch Full HD IPS Panel S2522HG</span>
                         </li>
