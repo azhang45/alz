@@ -31,7 +31,7 @@ export default function Home() {
 
       <main className=' bg-gradient-to-br from-slate-900 to-violet-700 px-10'>
         <section className='min-h-screen'>
-          <nav className='py-5 mb-12 flex justify-between'>
+          <nav className='pt-5 pb-3 mb-12 flex justify-between'>
             <a className='text-2xl font-ubuntu' href="">
               <span className=' text-cyan-600'>&lt;</span>alz<span className=' text-cyan-600'>&#47;&gt;</span>
             </a>
@@ -47,25 +47,25 @@ export default function Home() {
             </ul>
           </nav>
 
-          <div className='text-center p-10'>
-            <h2 className='text-6xl py-2 text-cyan-400 font-medium font-ubuntu'>Alice Zhang</h2>
+          <div className='text-center px-10'>
+            <h2 className='text-6xl text-cyan-400 font-medium font-ubuntu'>Alice Zhang</h2>
             <h3 className='text-3xl py-2'>Developer, engineer, and songwriter.</h3>
-            <p className='text-lg py-5 leading-8 text-gray-300'>
+            <p className='text-lg py-3 leading-8 text-gray-300'>
               Driven high school student with a passion for creating things.
             </p>
           </div>
 
-          <div className='text-5xl flex justify-center gap-16 py-3 text-gray-300'>
+          <div className='text-5xl flex justify-center gap-16 py-1 text-gray-300'>
             <a href='https://github.com/azhang45'> <AiFillGithub /> </a>
             <a href='https://www.linkedin.com/in/alice-zhang-994145247/'><AiFillLinkedin /></a>
             <a href='mailto:alicenz0063@gmail.com'><AiFillMail /></a>
           </div>
 
           <div>
-            <h2 className='font-ubuntu text-cyan-700 opacity-80 flex justify-center py-3'><em>Click the space bar in the image below for a surprise!</em></h2>
+            <h2 className='font-ubuntu text-cyan-700 opacity-80 flex justify-center py-1'><em>Click the space bar in the image below for a surprise!</em></h2>
           </div>
 
-          <div className='relative flex justify-center mx-auto py-5'>
+          <div className='relative flex justify-center mx-auto py-1'>
             <Image src = {keyboard} alt = "useMap" useMap = "#spacebar"/>
             <map name = "spacebar">
               <area shape = "rect" coords = "140,130,333,162" alt = "_blank"
@@ -75,7 +75,7 @@ export default function Home() {
           </div>
 
 
-          <div className='text-5xl flex justify-center text-cyan-300'>
+          <div className='text-5xl flex justify-center text-cyan-300 pb-8'>
             <AiOutlineArrowDown className={styles.downarrow} onClick={handleClick} />
           </div>
 
@@ -91,7 +91,7 @@ export default function Home() {
 
           {/* grid of prog projects */}
           <div>
-            <div className='py-10 px-16 md:px-32 xl:px-44 grid md:grid-cols-2 xl:grid-cols-4 gap-6'>
+            <div className='py-10 px-10 md:px-24 xl:px-32 grid md:grid-cols-2 xl:grid-cols-4 gap-6'>
 
               {/* project 1 */}
               <article className='flex flex-col'>
@@ -139,18 +139,18 @@ export default function Home() {
               <article className='flex flex-col'>
                 <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
                   hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
-                  bg-gradient-to-br from-green-800 to-yellow-500" >
+                  bg-gradient-to-br from-sky-800 to-yellow-500" >
 
                     <h4 className="font-ubuntu font-bold text-2xl sm:text-3xl">
-                      Concerndle
+                      T-Res
                     </h4>
                     <p className="font-sans text-sm mt-2 italic">
-                      Wordle Discord bot, but with an almost impossible twist (may be outdated due to Discord updates).
+                      3D version of the Google Chrome dinosaur game, made in Unity3D.
                     </p>
                 </a>
                 <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
-                  <a href="https://github.com/azhang45/Concerndle" target="_blank" 
-                    className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-lime-600 dark:border-white/20">
+                  <a href="https://github.com/azhang45/T-Res" target="_blank" 
+                    className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-cyan-600 dark:border-white/20">
                       github.com <AiOutlineArrowRight />
                   </a>
                 </div>

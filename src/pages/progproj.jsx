@@ -23,7 +23,7 @@ export default function ProgProj() {
                 </ul>
             </nav>
 
-            <div className='text-left py-10 px-1 md:px-8'>
+            <div className='text-left py-3 px-1 md:px-8'>
                 <h2 className='text-6xl py-1 text-cyan-400 font-medium font-ubuntu'>Programming Projects</h2>
                 <h3 className='text-3xl py-2'>With front-ends that may not be as nice...</h3>
             </div>
@@ -78,20 +78,20 @@ export default function ProgProj() {
                 <article className='flex flex-col'>
                     <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
                     hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
-                    bg-gradient-to-br from-green-800 to-yellow-500" >
+                    bg-gradient-to-br from-sky-800 to-yellow-500" >
 
                         <h4 className="font-ubuntu font-bold text-2xl sm:text-3xl">
-                        Concerndle
+                        T-Res
                         </h4>
                         <p className="font-sans text-sm mt-2 italic">
-                        Wordle Discord bot, but with an almost impossible twist (may be outdated due to Discord updates).
+                        3D version of the Google Chrome dinosaur game, made in Unity3D.
                         </p>
                     </a>
                     <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
-                    <a href="https://github.com/azhang45/Concerndle" target="_blank" 
-                        className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-lime-600 dark:border-white/20">
-                        github.com <AiOutlineArrowRight />
-                    </a>
+                        <a href="https://github.com/azhang45/T-Res" target="_blank" 
+                            className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-cyan-600 dark:border-white/20">
+                            github.com <AiOutlineArrowRight />
+                        </a>
                     </div>
                 </article>
 
@@ -111,6 +111,27 @@ export default function ProgProj() {
                     <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
                     <a href="https://github.com/kna27/datestamp-adder" target="_blank" 
                         className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-yellow-600 dark:border-white/20">
+                        github.com <AiOutlineArrowRight />
+                    </a>
+                    </div>
+                </article>
+
+                {/* project 5 */}
+                <article className='flex flex-col'>
+                    <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
+                    hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
+                    bg-gradient-to-br from-green-800 to-yellow-500" >
+
+                        <h4 className="font-ubuntu font-bold text-2xl sm:text-3xl">
+                        Concerndle
+                        </h4>
+                        <p className="font-sans text-sm mt-2 italic">
+                        Wordle Discord bot, but with an almost impossible twist (may be outdated due to Discord updates).
+                        </p>
+                    </a>
+                    <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
+                    <a href="https://github.com/azhang45/Concerndle" target="_blank" 
+                        className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-lime-600 dark:border-white/20">
                         github.com <AiOutlineArrowRight />
                     </a>
                     </div>
