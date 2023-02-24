@@ -31,7 +31,7 @@ export default function Home() {
 
       <main className=' bg-gradient-to-br from-slate-900 to-violet-700 px-10'>
         <section className='min-h-screen'>
-          <nav className='pt-5 pb-3 mb-12 flex justify-between'>
+          <nav className='pt-5 pb-3 lg:pb-5 mb-12 flex justify-between'>
             <a className='text-2xl font-ubuntu' href="">
               <span className=' text-cyan-600'>&lt;</span>alz<span className=' text-cyan-600'>&#47;&gt;</span>
             </a>
@@ -47,8 +47,8 @@ export default function Home() {
             </ul>
           </nav>
 
-          <div className='text-center px-10'>
-            <h2 className='text-6xl text-cyan-400 font-medium font-ubuntu'>Alice Zhang</h2>
+          <div className='text-center px-10 lg:p-8'>
+            <h2 className='text-6xl lg:py-3 text-cyan-400 font-medium font-ubuntu'>Alice Zhang</h2>
             <h3 className='text-3xl py-2'>Developer, engineer, and songwriter.</h3>
             <p className='text-lg py-3 leading-8 text-gray-300'>
               Driven high school student with a passion for creating things.
@@ -62,7 +62,7 @@ export default function Home() {
           </div>
 
           <div>
-            <h2 className='font-ubuntu text-cyan-700 opacity-80 flex justify-center py-1'><em>Click the space bar in the image below for a surprise!</em></h2>
+            <h2 className='font-ubuntu text-cyan-700 opacity-80 flex justify-center py-1 lg:py-7'><em>Click the space bar in the image below for a surprise!</em></h2>
           </div>
 
           <div className='relative flex justify-center mx-auto py-1'>
@@ -75,7 +75,7 @@ export default function Home() {
           </div>
 
 
-          <div className='text-5xl flex justify-center text-cyan-300 pb-8'>
+          <div className='text-5xl flex justify-center text-cyan-300 pb-8 lg:py-10'>
             <AiOutlineArrowDown className={styles.downarrow} onClick={handleClick} />
           </div>
 
@@ -150,7 +150,7 @@ export default function Home() {
                 </a>
                 <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
                   <a href="https://github.com/azhang45/T-Res" target="_blank" 
-                    className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-cyan-600 dark:border-white/20">
+                    className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-teal-700 dark:border-white/20">
                       github.com <AiOutlineArrowRight />
                   </a>
                 </div>

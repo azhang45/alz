@@ -89,7 +89,7 @@ export default function ProgProj() {
                     </a>
                     <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
                         <a href="https://github.com/azhang45/T-Res" target="_blank" 
-                            className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-cyan-600 dark:border-white/20">
+                            className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-teal-700 dark:border-white/20">
                             github.com <AiOutlineArrowRight />
                         </a>
                     </div>
