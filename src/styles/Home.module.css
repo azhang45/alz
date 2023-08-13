@@ -48,6 +48,7 @@
 
 .downarrow {
   transition: transform 500ms;
+  cursor: pointer;
 }
 
 .downarrow:hover {

@@ -51,8 +51,8 @@ export default function Home() {
 
           <div className='text-center px-10 lg:p-8'>
             <h2 className='text-6xl lg:py-3 text-cyan-400 font-medium font-ubuntu'>Alice Zhang</h2>
-            <h3 className='text-3xl py-2'>Developer, designer, engineer. Prospective entrepreneur.</h3>
-            <p className='text-lg py-3 leading-8 text-gray-300'>
+            <h3 className='text-3xl md:py-2'>Developer, designer, engineer. Prospective entrepreneur.</h3>
+            <p className='text-lg md:py-3 leading-8 text-gray-300'>
               Driven high school student with a passion for creating things.
             </p>
           </div>
