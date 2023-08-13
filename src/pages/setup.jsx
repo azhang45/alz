@@ -109,7 +109,7 @@ export default function Setup() {
                             Monitor: <span className=' text-white'>Dell 240Hz 24.5 Inch Full HD IPS Panel S2522HG</span>
                         </li>
                         <li>
-                            Mouse: <span className=' text-white'>Razer Orochi V2 White</span>
+                            Mouse: <span className=' text-white'>Glorious Model O- Wireless White</span>
                         </li>
                         <li>
                             Headphones: <span className=' text-white'>HyperX Cloud Alpha, Audio-Technica ATH-M30x for music production</span>

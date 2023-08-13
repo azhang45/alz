@@ -120,6 +120,27 @@ export default function ProgProj() {
                 <article className='flex flex-col'>
                     <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
                     hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
+                    bg-gradient-to-br from-sky-900 to-slate-500" >
+
+                        <h4 className="font-ubuntu font-bold text-2xl sm:text-3xl">
+                        Tacto.Ink
+                        </h4>
+                        <p className="font-sans text-sm mt-2 italic">
+                        Braille inscriber that automatically converts English text to braille writing; won UPENN M&TSI Most Innovative award.
+                        </p>
+                    </a>
+                    <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
+                    <a href="https://mtsi2023.devpost.com" target="_blank" 
+                        className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-sky-800 dark:border-white/20">
+                        devpost.com <AiOutlineArrowRight />
+                    </a>
+                    </div>
+                </article>
+
+                {/* project 6 */}
+                <article className='flex flex-col'>
+                    <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
+                    hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
                     bg-gradient-to-br from-green-800 to-yellow-500" >
 
                         <h4 className="font-ubuntu font-bold text-2xl sm:text-3xl">
