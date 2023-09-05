@@ -8,12 +8,12 @@ export default function ProgProj() {
     <main className=' bg-gradient-to-br from-slate-900 to-violet-700 px-10'>
         <section>
             <nav className='py-5 mb-12 flex justify-between'>
-                <a className='text-2xl font-ubuntu' href="/">
+                <a className='text-white text-2xl font-ubuntu' href="/">
                 <span className=' text-cyan-600'>&lt;</span>alz<span className=' text-cyan-600'>&#47;&gt;</span>
                 </a>
                 <ul className='flex items-center'>
                 <li>
-                    <BsFillMoonStarsFill className='cursor-pointer text-2xl'/>
+                    <BsFillMoonStarsFill className='text-white cursor-pointer text-2xl'/>
                 </li>
                 <li>
                     <a className='bg-gradient-to-br from-blue-700 to-cyan-500 text-white px-4 py-2 rounded-md ml-8' href="#">
@@ -25,12 +25,12 @@ export default function ProgProj() {
 
             <div className='text-left py-3 px-1 md:px-8'>
                 <h2 className='text-6xl py-1 text-cyan-400 font-medium font-ubuntu'>Programming Projects</h2>
-                <h3 className='text-3xl py-2'>With front-ends that may not be as nice...</h3>
+                <h3 className='text-white text-3xl py-2'>With front-ends that may not be as nice...</h3>
             </div>
         </section>
 
         <section className='min-h-screen'>
-            <div className='py-10 px-16 md:px-32 xl:px-44 grid md:grid-cols-2 xl:grid-cols-4 gap-6'>
+            <div className='text-white py-10 px-16 md:px-32 xl:px-44 grid md:grid-cols-2 xl:grid-cols-4 gap-6'>
 
                 {/* project 1 */}
                 <article className='flex flex-col'>

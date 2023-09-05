@@ -34,12 +34,12 @@ export default function Home() {
       <main className=' bg-gradient-to-br from-slate-900 to-violet-700 px-10'>
         <section className='min-h-screen'>
           <nav className='pt-5 pb-3 lg:pb-5 mb-12 flex justify-between'>
-            <a className='text-2xl font-ubuntu' href="">
+            <a className='text-white text-2xl font-ubuntu' href="">
               <span className=' text-cyan-600'>&lt;</span>alz<span className=' text-cyan-600'>&#47;&gt;</span>
             </a>
             <ul className='flex items-center'>
               <li>
-                <BsFillMoonStarsFill className='cursor-pointer text-2xl'/>
+                <BsFillMoonStarsFill className='text-white cursor-pointer text-2xl'/>
               </li>
               <li>
                 <a className='bg-gradient-to-br from-blue-700 to-cyan-500 text-white px-4 py-2 rounded-md ml-8' href="#">
@@ -51,7 +51,7 @@ export default function Home() {
 
           <div className='text-center px-10 lg:p-8'>
             <h2 className='text-6xl lg:py-3 text-cyan-400 font-medium font-ubuntu'>Alice Zhang</h2>
-            <h3 className='text-3xl md:py-2'>Developer, designer, engineer. Prospective entrepreneur.</h3>
+            <h3 className='text-white text-3xl md:py-2'>Developer, designer, engineer. Prospective entrepreneur.</h3>
             <p className='text-lg md:py-3 leading-8 text-gray-300'>
               Driven high school student with a passion for creating things.
             </p>
@@ -93,7 +93,7 @@ export default function Home() {
 
           {/* grid of prog projects */}
           <div>
-            <div className='py-10 px-10 md:px-24 xl:px-32 grid md:grid-cols-2 xl:grid-cols-4 gap-6'>
+            <div className=' text-white py-10 px-10 md:px-24 xl:px-32 grid md:grid-cols-2 xl:grid-cols-4 gap-6'>
 
               {/* project 1 */}
               <article className='flex flex-col'>

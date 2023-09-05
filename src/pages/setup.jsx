@@ -8,12 +8,12 @@ export default function Setup() {
         <main className=' bg-gradient-to-br from-slate-900 to-violet-700 px-10'>
             <section className='min-h-screen'>
                 <nav className='py-5 mb-12 flex justify-between'>
-                    <a className='text-2xl font-ubuntu' href="/">
+                    <a className='text-white text-2xl font-ubuntu' href="/">
                     <span className=' text-cyan-600'>&lt;</span>alz<span className=' text-cyan-600'>&#47;&gt;</span>
                     </a>
                     <ul className='flex items-center'>
                     <li>
-                        <BsFillMoonStarsFill className='cursor-pointer text-2xl'/>
+                        <BsFillMoonStarsFill className='text-white cursor-pointer text-2xl'/>
                     </li>
                     <li>
                         <a className='bg-gradient-to-br from-blue-700 to-cyan-500 text-white px-4 py-2 rounded-md ml-8' href="#">
@@ -25,7 +25,7 @@ export default function Setup() {
 
                 <div className='text-left p-10'>
                     <h2 className='text-6xl py-2 text-cyan-400 font-medium font-ubuntu'>My Setup</h2>
-                    <h3 className='text-3xl py-2'>Where all the magic happens.</h3>
+                    <h3 className='text-white text-3xl py-2'>Where all the magic happens.</h3>
                 </div>
 
                 <div className='relative flex justify-center mx-auto py-2 xl:px-72'>
@@ -38,7 +38,7 @@ export default function Setup() {
                     <h2 className='text-5xl py-2 text-cyan-400 font-medium font-ubuntu'>
                         PC
                     </h2>
-                    <h3 className=' text-3xl py-2'>
+                    <h3 className='text-white text-3xl py-2'>
                         Custom-built PC using the following parts:
                     </h3>
                     <div className='px-3 md:px-10 text-2xl text-cyan-300'>
@@ -71,7 +71,7 @@ export default function Setup() {
                     <h2 className='text-5xl py-2 text-cyan-400 font-medium font-ubuntu'>
                         Keyboard
                     </h2>
-                    <h3 className=' text-3xl py-2'>
+                    <h3 className='text-white text-3xl py-2'>
                         Custom-built mechanical keyboard using the following parts:
                     </h3>
                     <div className='px-3 md:px-10 text-2xl text-cyan-300'>
@@ -101,7 +101,7 @@ export default function Setup() {
                     <h2 className='text-5xl py-2 text-cyan-400 font-medium font-ubuntu'>
                         Peripherals
                     </h2>
-                    <h3 className=' text-3xl py-2'>
+                    <h3 className='text-white text-3xl py-2'>
                         Other parts of the setup:
                     </h3>
                     <div className='px-3 md:px-10 text-2xl text-cyan-300'>
