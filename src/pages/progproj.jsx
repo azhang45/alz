@@ -15,11 +15,11 @@ export default function ProgProj() {
                 <li>
                     <BsFillMoonStarsFill className='text-white cursor-pointer text-2xl'/>
                 </li>
-                <li>
-                    <a className='bg-gradient-to-br from-blue-700 to-cyan-500 text-white px-4 py-2 rounded-md ml-8' href="#">
-                    Resume
+                {/* <li>
+                    <a className='bg-gradient-to-br from-blue-700 to-cyan-500 text-white px-4 py-2 rounded-md ml-8' href="/commissions">
+                    Keyboard Commissions
                     </a>
-                </li>
+                </li> */}
                 </ul>
             </nav>
 

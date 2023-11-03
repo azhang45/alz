@@ -41,11 +41,11 @@ export default function Home() {
               <li>
                 <BsFillMoonStarsFill className='text-white cursor-pointer text-2xl'/>
               </li>
-              <li>
-                <a className='bg-gradient-to-br from-blue-700 to-cyan-500 text-white px-4 py-2 rounded-md ml-8' href="#">
-                  Resume
+              {/* <li>
+                <a className='bg-gradient-to-br from-blue-700 to-cyan-500 text-white px-4 py-2 rounded-md ml-8' href="/commissions">
+                  Keyboard Commissions
                 </a>
-              </li>
+              </li> */}
             </ul>
           </nav>
 
@@ -188,14 +188,14 @@ export default function Home() {
           </div>
         </section>
 
-        <section className='pb-10'>
+        {/* <section className='pb-10'>
           <div>
             <h3 className='text-3xl font-ubuntu bg-zinc-700 px-3 md:px-5 lg:px-9 py-1 pr-5 md:pr-28 lg:pr-60 bg-opacity-60 
               text-left rounded-br-full rounded-tl-full text-gray-300' style={{display: "inline"}}>
               <span className='text-sky-400'>alz@DESKTOP-123456:~$</span> cd other-projects
             </h3>
           </div>
-        </section>
+        </section> */}
 
       </main>
     </div>
