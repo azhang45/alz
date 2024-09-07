@@ -36,13 +36,34 @@ export default function ProgProj() {
                 <article className='flex flex-col'>
                     <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
                     hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
+                    bg-gradient-to-br from-yellow-400 to-sky-600" >
+
+                        <h4 className="font-ubuntu font-bold text-2xl sm:text-3xl">
+                        Sunshine Housing
+                        </h4>
+                        <p className="font-sans text-sm mt-2 italic">
+                        Apartment search and user management website developed for Sunshine Living.
+                        </p>
+                    </a>
+                    <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
+                    <a href="https://sunshine-housing.com" target="_blank" 
+                        className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-yellow-500 dark:border-white/20">
+                        sunshine-housing.com <AiOutlineArrowRight />
+                    </a>
+                    </div>
+                </article>
+
+                {/* project 2 */}
+                <article className='flex flex-col'>
+                    <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
+                    hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
                     bg-gradient-to-br from-emerald-900 to-emerald-500" >
 
                         <h4 className="font-ubuntu font-bold text-2xl sm:text-3xl">
                         YourBcaBus
                         </h4>
                         <p className="font-sans text-sm mt-2 italic">
-                        Bus-location tracker developed for the ease of BCA students.
+                        Bus-location tracker developed for the ease of BCA students. A Yenowa project.
                         </p>
                     </a>
                     <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
@@ -53,28 +74,28 @@ export default function ProgProj() {
                     </div>
                 </article>
 
-                {/* project 2 */}
+                {/* project 3 */}
                 <article className='flex flex-col'>
                     <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
                     hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
-                    bg-gradient-to-br from-slate-800 to-blue-900" >
+                    bg-gradient-to-br from-purple-600 to-slate-950" >
 
                         <h4 className="font-ubuntu font-bold text-2xl sm:text-3xl">
-                        Mare by Alsky
+                        TableJet
                         </h4>
                         <p className="font-sans text-sm mt-2 italic">
-                        Website that converts user-uploaded images into line art.
+                        Teacher attendance app to easily notify BCA students for when their teachers are absent. A Yenowa project.
                         </p>
                     </a>
                     <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
-                    <a href="https://github.com/azhang45/Mare" target="_blank" 
-                        className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-blue-900 dark:border-white/20">
-                        github.com <AiOutlineArrowRight />
+                    <a href="https://tablejet.app" target="_blank" 
+                        className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-violet-950 dark:border-white/20">
+                        tablejet.app <AiOutlineArrowRight />
                     </a>
                     </div>
                 </article>
 
-                {/* project 3 */}
+                {/* project 4 */}
                 <article className='flex flex-col'>
                     <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
                     hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
@@ -95,7 +116,28 @@ export default function ProgProj() {
                     </div>
                 </article>
 
-                {/* project 4 */}
+                {/* project 5 */}
+                <article className='flex flex-col'>
+                    <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
+                    hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
+                    bg-gradient-to-br from-slate-800 to-blue-900" >
+
+                        <h4 className="font-ubuntu font-bold text-2xl sm:text-3xl">
+                        Mare by Alsky
+                        </h4>
+                        <p className="font-sans text-sm mt-2 italic">
+                        Website that converts user-uploaded images into line art.
+                        </p>
+                    </a>
+                    <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
+                    <a href="https://github.com/azhang45/Mare" target="_blank" 
+                        className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-blue-900 dark:border-white/20">
+                        github.com <AiOutlineArrowRight />
+                    </a>
+                    </div>
+                </article>
+
+                {/* project 6 */}
                 <article className='flex flex-col'>
                     <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
                     hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
@@ -116,7 +158,7 @@ export default function ProgProj() {
                     </div>
                 </article>
 
-                {/* project 5 */}
+                {/* project 7 */}
                 <article className='flex flex-col'>
                     <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
                     hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
@@ -137,7 +179,7 @@ export default function ProgProj() {
                     </div>
                 </article>
 
-                {/* project 6 */}
+                {/* project 8 */}
                 <article className='flex flex-col'>
                     <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
                     hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center

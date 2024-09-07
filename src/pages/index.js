@@ -51,9 +51,9 @@ export default function Home() {
 
           <div className='text-center px-10 lg:p-8'>
             <h2 className='text-6xl lg:py-3 text-cyan-400 font-medium font-ubuntu'>Alice Zhang</h2>
-            <h3 className='text-white text-3xl md:py-2'>Developer, designer, engineer. Prospective entrepreneur.</h3>
+            <h3 className='text-white text-3xl md:py-2'>Developer, designer, creator.</h3>
             <p className='text-lg md:py-3 leading-8 text-gray-300'>
-              Driven high school student with a passion for creating things.
+              Driven undergraduate student at Carnegie Mellon University with a passion for creating things.
             </p>
           </div>
 
@@ -95,7 +95,29 @@ export default function Home() {
           <div>
             <div className=' text-white py-10 px-10 md:px-24 xl:px-32 grid md:grid-cols-2 xl:grid-cols-4 gap-6'>
 
+              {/* i gotta change all these to be react components */}
               {/* project 1 */}
+              <article className='flex flex-col'>
+                <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
+                  hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
+                  bg-gradient-to-br from-yellow-400 to-sky-600" >
+
+                    <h4 className="font-ubuntu font-bold text-2xl sm:text-3xl">
+                      Sunshine Housing
+                    </h4>
+                    <p className="font-sans text-sm mt-2 italic">
+                      Apartment search and user management website developed for Sunshine Living.
+                    </p>
+                </a>
+                <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
+                  <a href="https://sunshine-housing.com" target="_blank" 
+                    className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-yellow-500 dark:border-white/20">
+                      sunshine-housing.com <AiOutlineArrowRight />
+                  </a>
+                </div>
+              </article>
+
+              {/* project 2 */}
               <article className='flex flex-col'>
                 <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
                   hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
@@ -105,7 +127,7 @@ export default function Home() {
                       YourBcaBus
                     </h4>
                     <p className="font-sans text-sm mt-2 italic">
-                      Bus-location tracker developed for the ease of BCA students.
+                      Bus-location tracker developed for the ease of BCA students. A Yenowa project.
                     </p>
                 </a>
                 <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
@@ -116,28 +138,28 @@ export default function Home() {
                 </div>
               </article>
 
-              {/* project 2 */}
+              {/* project 3 */}
               <article className='flex flex-col'>
                 <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
                   hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
-                  bg-gradient-to-br from-slate-800 to-blue-900" >
+                  bg-gradient-to-br from-purple-600 to-slate-950" >
 
                     <h4 className="font-ubuntu font-bold text-2xl sm:text-3xl">
-                      Mare by Alsky
+                      TableJet
                     </h4>
                     <p className="font-sans text-sm mt-2 italic">
-                      Website that converts user-uploaded images into line art.
+                      Teacher attendance app to easily notify BCA students for when their teachers are absent. A Yenowa project.
                     </p>
                 </a>
                 <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
-                  <a href="https://github.com/azhang45/Mare" target="_blank" 
-                    className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-blue-900 dark:border-white/20">
-                      github.com <AiOutlineArrowRight />
+                  <a href="https://tablejet.app" target="_blank" 
+                    className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-violet-950 dark:border-white/20">
+                      tablejet.app <AiOutlineArrowRight />
                   </a>
                 </div>
               </article>
 
-              {/* project 3 */}
+              {/* project 4 */}
               <article className='flex flex-col'>
                 <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
                   hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
@@ -153,27 +175,6 @@ export default function Home() {
                 <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
                   <a href="https://github.com/azhang45/T-Res" target="_blank" 
                     className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-teal-700 dark:border-white/20">
-                      github.com <AiOutlineArrowRight />
-                  </a>
-                </div>
-              </article>
-
-              {/* project 4 */}
-              <article className='flex flex-col'>
-                <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
-                  hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
-                  bg-gradient-to-br from-zinc-600 to-amber-500" >
-
-                    <h4 className="font-ubuntu font-bold text-2xl sm:text-3xl">
-                      Datestamp Adder
-                    </h4>
-                    <p className="font-sans text-sm mt-2 italic">
-                      Website that uses image metadata to add the date and/or time stamp on user-uploaded images.
-                    </p>
-                </a>
-                <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
-                  <a href="https://github.com/kna27/datestamp-adder" target="_blank" 
-                    className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-yellow-600 dark:border-white/20">
                       github.com <AiOutlineArrowRight />
                   </a>
                 </div>
