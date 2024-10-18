@@ -88,9 +88,9 @@ export default function ProgProj() {
                         </p>
                     </a>
                     <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
-                    <a href="https://tablejet.app" target="_blank" 
+                    <a href="https://tbj.yourbcabus.com" target="_blank" 
                         className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-violet-950 dark:border-white/20">
-                        tablejet.app <AiOutlineArrowRight />
+                        tbj.yourbcabus.com <AiOutlineArrowRight />
                     </a>
                     </div>
                 </article>
