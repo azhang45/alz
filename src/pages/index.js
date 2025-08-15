@@ -111,7 +111,7 @@ export default function Home() {
                 </a>
                 <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
                   <a href="https://sunshine-housing.com" target="_blank" 
-                    className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-yellow-500 dark:border-white/20">
+                    className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-lime-600 dark:border-white/20">
                       sunshine-housing.com <AiOutlineArrowRight />
                   </a>
                 </div>
