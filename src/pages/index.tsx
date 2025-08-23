@@ -10,13 +10,14 @@ import Image from 'next/image';
 import keyboard from 'public/keyboard.png';
 import ybb from 'public/ybb2.png';
 import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
+import ProjectCard from '../components/ProjectCard';
+import styles from '../styles/Home.module.css'
 import {useRef} from 'react';
 import Link from 'next/link';
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  const ref = useRef(null);
+  const ref = useRef<null | HTMLDivElement>(null);
 
   const handleClick = () => {
     ref.current?.scrollIntoView({behavior: 'smooth'});
@@ -95,90 +96,49 @@ export default function Home() {
           <div>
             <div className=' text-white py-10 px-10 md:px-24 xl:px-32 grid md:grid-cols-2 xl:grid-cols-4 gap-6'>
 
-              {/* i gotta change all these to be react components */}
               {/* project 1 */}
-              <article className='flex flex-col'>
-                <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
-                  hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
-                  bg-gradient-to-br from-yellow-400 to-sky-600" >
-
-                    <h4 className="font-ubuntu font-bold text-2xl sm:text-3xl">
-                      Sunshine Housing
-                    </h4>
-                    <p className="font-sans text-sm mt-2 italic">
-                      Apartment search and user management website developed for Sunshine Living.
-                    </p>
-                </a>
-                <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
-                  <a href="https://sunshine-housing.com" target="_blank" 
-                    className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-lime-600 dark:border-white/20">
-                      sunshine-housing.com <AiOutlineArrowRight />
-                  </a>
-                </div>
-              </article>
+              <ProjectCard
+                title="Sunshine Housing"
+                description="Apartment search and user management website developed for Sunshine Living."
+                label="sunshine-housing.com"
+                link="https://sunshine-housing.com"
+                fromColor="yellow-400"
+                toColor="sky-600"
+                linkColor="lime-600"
+              />
 
               {/* project 2 */}
-              <article className='flex flex-col'>
-                <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
-                  hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
-                  bg-gradient-to-br from-emerald-900 to-emerald-500" >
-
-                    <h4 className="font-ubuntu font-bold text-2xl sm:text-3xl">
-                      YourBcaBus
-                    </h4>
-                    <p className="font-sans text-sm mt-2 italic">
-                      Bus-location tracker developed for the ease of BCA students. A Yenowa project.
-                    </p>
-                </a>
-                <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
-                  <a href="https://about.yourbcabus.com" target="_blank" 
-                    className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-emerald-600 dark:border-white/20">
-                      yourbcabus.com <AiOutlineArrowRight />
-                  </a>
-                </div>
-              </article>
+              <ProjectCard
+                title="YourBCABus"
+                description="Bus-location tracker developed for the ease of BCA students. A Yenowa project."
+                label="yourbcabus.com"
+                link="https://about.yourbcabus.com"
+                fromColor="emerald-900"
+                toColor="emerald-500"
+                linkColor="emerald-600"
+              />
 
               {/* project 3 */}
-              <article className='flex flex-col'>
-                <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
-                  hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
-                  bg-gradient-to-br from-purple-600 to-slate-950" >
-
-                    <h4 className="font-ubuntu font-bold text-2xl sm:text-3xl">
-                      TableJet
-                    </h4>
-                    <p className="font-sans text-sm mt-2 italic">
-                      Teacher attendance app to easily notify BCA students for when their teachers are absent. A Yenowa project.
-                    </p>
-                </a>
-                <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
-                  <a href="https://tbj.yourbcabus.com" target="_blank" 
-                    className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-violet-950 dark:border-white/20">
-                      tbj.yourbcabus.com <AiOutlineArrowRight />
-                  </a>
-                </div>
-              </article>
+              <ProjectCard
+                title="TableJet"
+                description="Teacher attendance app to easily notify BCA students for when their teachers are absent. A Yenowa project."
+                label="tbj.yourbcabus.com"
+                link="https://tbj.yourbcabus.com"
+                fromColor="purple-600"
+                toColor="slate-950"
+                linkColor="violet-950"
+              />
 
               {/* project 4 */}
-              <article className='flex flex-col'>
-                <a className="block border border-slate-400 dark:border-slate-600 p-3 flex-grow 
-                  hover:opacity-80 active:opacity-60 transition-opacity rounded-t-lg bg-cover bg-center
-                  bg-gradient-to-br from-sky-800 to-yellow-500" >
-
-                    <h4 className="font-ubuntu font-bold text-2xl sm:text-3xl">
-                      T-Res
-                    </h4>
-                    <p className="font-sans text-sm mt-2 italic">
-                      3D version of the Google Chrome dinosaur game, made in Unity3D.
-                    </p>
-                </a>
-                <div className="flex items-center justify-center px-4 h-14 space-x-4 bg-slate-600 rounded-b-lg">
-                  <a href="https://github.com/azhang45/T-Res" target="_blank" 
-                    className="font-ubuntu hover:opacity-80 active:opacity-60 transition-opacity px-3 py-1 rounded-full bg-teal-700 dark:border-white/20">
-                      github.com <AiOutlineArrowRight />
-                  </a>
-                </div>
-              </article>
+              <ProjectCard
+                title="T-Res"
+                description="3D version of the Google Chrome dinosaur game, made in Unity3D."
+                label="github.com"
+                link="https://github.com/azhang45/T-Res"
+                fromColor="sky-800"
+                toColor="yellow-500"
+                linkColor="teal-700"
+              />
 
               <a href="/progproj" className={styles.card} rel="noopener noreferrer">
                 <h2 className={inter.className}>
